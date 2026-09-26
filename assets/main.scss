@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// minima は素の h2 にフォントサイズを指定していないため、index.markdown の
+// "## Projects" はブラウザ既定 (1.5em) になり、.post-list-heading (1.75em,
+// minima/_layout.scss) の Posts 見出しより小さく表示される。
+// トップページ直下の見出しを Posts 見出しと同じ比率に揃える。
+.home > h2 {
+  @include relative-font-size(1.75);
+}
+
+// 同様に、index.markdown の markdown リストは素の ul のため黒丸と左インデントが付く。
+// Posts 側の .post-list (minima/_layout.scss) と同じ体裁に揃える。
+// :not(.post-list) で除外しないと、セレクタ詳細度がテーマ側の `.post-list > li` を
+// 上回り、Posts 側の項目間隔まで書き換えてしまう。
+.home > ul:not(.post-list) {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit / 2;
+  }
+}
