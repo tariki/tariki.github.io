@@ -32,3 +32,5 @@ layout: home
 -->
 - [仕様駆動開発をClaude Codeで試してみた](/docs/2026-09-26-spec-driven-development/)
   - cutup-machineはClaude Codeで仕様駆動開発を実践しています。cutup-machine開発における仕様駆動開発についての解説になります。
+- [25年前のゲームを3日で蘇らせた話 — XShipWars 移植事例](/docs/2026-10-07-legacy-code-modernization/)
+  - xshipwarsはClaude Codeで移植しました。xshipwars移植における、Claude Codeを使ったレガシーコードの移植の進め方についての解説になります。
