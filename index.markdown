@@ -15,6 +15,8 @@ layout: home
   - 複数の文章からカットアップ技法(形態素解析により分解し、マーコフ連鎖による単語単位の再構成)で新しい文章を生成するWebアプリです。
 - [earthquake-map](https://github.com/tariki/earthquake-map)
   - 2026年以降に日本国内で発生した最大震度5弱以上の地震データをインタラクティブな日本地図上にビジュアルマッピングするWebアプリです。
+- [xshipwars](https://github.com/tariki/xshipwars)
+  - WolfPack Entertainment が 1999〜2001 年に開発した、X Window System 用のネットワーク対戦型宇宙船ゲームである XShipWars を最新の Linux / FreeBSD 環境に移植したものです。
 - [cyclemaintenance](https://github.com/tariki/cyclemaintenance)
   - 自転車の部品交換などメンテナンス記録を点けるためのWebアプリです。※メンテナンス停止
 - [boxrubylib](https://github.com/tariki/boxrubylib)
