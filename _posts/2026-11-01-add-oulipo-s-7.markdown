@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "oulipo-s-7を公開しました"
-date:   2026-11-01 12:00:00 +0900
+date:   2026-11-01 09:00:00 +0900
 categories: update
 ---
 プロジェクトリストに[oulipo-s-7](https://github.com/tariki/oulipo-s-7)を追加しました。
